@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include header.html %}
+
+  {{ content }}
+
+{% if site.data.site.testimonial_enabled %}
+{% include testimonial.html %}
+{% endif %}
+{% if site.data.site.clients_enabled %}
+<div class="desktop-only">
+{% include clients.html %}
+</div>
+{% endif %}

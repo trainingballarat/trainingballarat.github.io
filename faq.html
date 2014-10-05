@@ -1,0 +1,20 @@
+---
+layout: faq
+title: Frequently Asked Questions
+permalink: /faq/
+---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-6">
+            <img class="img-responsive" src="{{ "/assets/img/about.jpg" | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="col-lg-3">
+            <h4>Frequently Asked Questions</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] %}
+                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+            {% endfor %}
+        </div>
+    </div><! --/row -->
+</div><! --/container -->

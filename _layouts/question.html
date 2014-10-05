@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% include wrap.html %}
+
+<div class="container mtb">
+  <div class="row">
+  <div class="col-lg-6">
+      <img class="img-responsive" src="{{ site.baseurl }}/assets/img/{{ page.image }}" alt="">
+  </div>
+    <div class="col-lg-6">
+      {{ content }}
+    </div>
+    <div class="col-lg-3">
+      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+    </div>
+  </div><! --/row -->
+</div><! --/container -->

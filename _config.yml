@@ -1,0 +1,17 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: Training Ballarat
+description: "Workplace Training, Office Management and Staff Analysis."
+baseurl: "//trainingballarat.github.io/"
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+#Colors are now defined in assets/css/allstyles.scss through SASS.
+
+#Contact Data has moved into _data/site.yml, referenced with {{ site.data.site.[element] }}
+#General Data has moved into _data/site.yml, referenced with {{ site.data.site.[element] }}

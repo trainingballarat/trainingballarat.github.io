@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% include wrap.html %}
+
+    {{ content }}
+
+{% if site.data.site.members_enabled %}
+{% include members.html %}
+{% endif %}
+{% if site.data.site.testimonal %}
+{% include testimonial.html %}
+{% endif %}
+{% if site.data.site.clients_enabled %}
+{% include clients.html %}
+{% endif %}
