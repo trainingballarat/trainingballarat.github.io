@@ -1,0 +1,39 @@
+.titleA {
+  margin-bottom: -webkit-calc((#{$spacing-unit} / 2)* -1);
+  margin-bottom: calc((#{$spacing-unit} / 2)* -1);
+
+  font-size: 2.1rem;
+  letter-spacing:0.1rem;
+  font-weight:bold;
+  text-align: center;
+  color:$brand-color;
+}
+
+.titleB {
+
+  margin-bottom: -webkit-calc(#{$spacing-unit}/2);
+  margin-bottom: calc(#{$spacing-unit}/2);
+
+  font-size: 2rem;
+  font-weight:bold;
+  text-align: center;
+  color:$brand-color-secondary;
+}
+
+.tagline {
+  text-align:center;
+  font-style:italic;
+}
+
+.center {
+  text-align:center;
+}
+
+.font_larger {
+  font-size:2rem;
+  text-align:center;
+}
+
+#center {
+  text-align:center;
+}

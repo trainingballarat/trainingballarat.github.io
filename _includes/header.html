@@ -1,0 +1,19 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.data.config.baseurl }}/">
+    {% if page.title == {{ site.data.config.title }} %}
+    {{ site.data.config.title }}
+    {% else %}
+    <img src="{{ "/img/logo.png" | prepend: site.baseurl }}" alt="Training Ballarat Logo" /> {{ site.data.config.title }}
+    {% endif %}
+    </a>
+
+    {% include sidebar.html %}
+
+    <label for="sidebar-checkbox" class="sidebar-toggle font_larger"><i class="fa  fa-reorder"></i></label>
+
+  </div>
+
+</header>

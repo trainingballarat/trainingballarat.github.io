@@ -1,0 +1,6 @@
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://192.168.1.2:4000" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <div class="one-third column">
+    <img src="{{ "/img/logo.png" | prepend: site.baseurl }}" alt="Training Ballarat Logo" />
+    <p class="tagline">{{ site.data.config.tag }}</p>
+  </div>
+
+  <div class="one-third offset-by-three column">
+    <h1 class="titleA">TRAINING</h1>
+    <h1 class="titleB">BALLARAT</h1>
+    <p class="center">{{ site.data.config.description }}</p>
+    <p class="center"><a href="tel:{{ site.data.config.phone }}">{{ site.data.config.phone }}</a></p>
+    <p class="center"><a href="mailto:{{ site.data.config.email }}">{{ site.data.config.email }}</a></p>
+  </div>
+
+</div>
