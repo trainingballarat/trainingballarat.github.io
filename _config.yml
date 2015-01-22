@@ -3,7 +3,7 @@
 # Site settings
 title: Training Ballarat
 description: "Workplace Training, Office Management and Staff Analysis."
-baseurl: "//trainingballarat.github.io/"
+baseurl: ""
 url: ""
 
 # Build settings
@@ -15,3 +15,73 @@ excerpt_separator: <!--more--> #use this in posts to define how long the excerpt
 
 #Contact Data has moved into _data/site.yml, referenced with {{ site.data.site.[element] }}
 #General Data has moved into _data/site.yml, referenced with {{ site.data.site.[element] }}
+
+prose:
+  ignore: ["lib", "config.rb", "Gemfile", "Capfile", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "vendor", "/_posts/examples", "README.md", ".gitignore", ".gitattributes", "404.md", "CNAME", "LICENSE", "favicon.ico", "favicon.png", "feed.xml", "links.jsonp", "package.json", "post.thor", "publication_details.md", "search.html", "tags.html", "_plugins", "_layouts", "_includes", "_sass"]
+  rooturl: ''
+  siteurl: 'https://trainingballarat.github.io/'
+  relativeLinks: 'https://trainingballarat.github.io/links.jsonp'
+  media: 'assets/img'
+  metadata:
+    _data:
+      - name: "about"
+      field:
+        element: "text"
+        label: "About"
+        value: "Some about text."
+      - name: "email"
+      field:
+        element: "text"
+        label: "Email Address"
+        value: "Your email"
+      - name: "contact_comment"
+      field:
+        element: "text"
+        label: "Contact Me Statement"
+        value: "Contact statement."
+      - name: "services_enabled"
+      field:
+        element: "checkbox"
+        label: "Enable Services Page?"
+        value: "true"
+      - name: "testimonial_enabled"
+      field:
+        element: "checkbox"
+        label: "Enable Testimonials Page?"
+        value: "false"
+    _posts/question:
+      - name: "layout"
+      field:
+        element: "hidden"
+        label: "Layout"
+        value: "question"
+      - name: "title"
+      field:
+        label: "Title"
+        element: "text"
+        value: "Headline"
+      - name: "date"
+      field:
+        element: "text"
+        label: "date"
+        value: "2014-01-03 16:54:46"
+      - name: "author"
+      field:
+        element: "hidden"
+        label: "Author"
+        value: "Charles Milne"
+      - name: "image"
+      field:
+        element: "text"
+        label: "Header Image"
+        value: "1072216_52298388.jpg"
+      - name: "fontawesome"
+      field:
+        element: "text"
+        label: "Icon"
+        value: "fa-briefcase"
+      - name: "categories"
+      field:
+        element: "hidden"
+        label: "Category"
+        value: "- question"
